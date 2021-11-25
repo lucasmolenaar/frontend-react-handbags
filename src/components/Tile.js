@@ -4,7 +4,7 @@ const Tile = ({image, title, p1, p2}) => {
     return (
         (image) ?
             <section>
-                <img src={image} alt="tile image"/>
+                <img src={image} alt="tile"/>
             </section>
         :
             <section>
